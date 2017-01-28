@@ -462,21 +462,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="78661188d21f744d7fb0ce256cb8a9c8fb388bae">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_205b403a1739cd20a90cc36ba2f1d50273676c4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
         <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_8628d9e1311e1e0b6bb8affa4d4ec89bf368f2e2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="dc56844b0795531e004ac9e5f84d555c06f08a6c">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_205b403a1739cd20a90cc36ba2f1d50273676c4d/classes.dex" />
     </item>
     <item
         is-multidex="true"

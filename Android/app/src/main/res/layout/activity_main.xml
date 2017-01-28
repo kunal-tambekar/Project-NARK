@@ -41,7 +41,7 @@
                     android:id="@+id/instantTV1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Instant Meeting"
+                    android:text="Broadcast"
                     android:textColor="#e85e30"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -62,74 +62,107 @@
                     android:background="@android:color/darker_gray"/>
             </RelativeLayout>
 
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/schedule"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:onClick="scheduleBtnClicked">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/scheduleTV1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Schedule a Meeting."-->
+                    <!--android:textColor="#e85e30"-->
+                    <!--android:textSize="20sp"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/scheduleTV2"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@+id/scheduleTV1"-->
+                    <!--android:layout_marginTop="6dp"-->
+                    <!--android:text="Use this option to schedule a meeting on your chosen time. You need to login to use this." />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/scheduleTV2"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:background="@android:color/darker_gray"/>-->
+            <!--</RelativeLayout>-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/join"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:onClick="joinBtnClicked">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/joinTV1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Join a Meeting"-->
+                    <!--android:textColor="#e85e30"-->
+                    <!--android:textSize="20sp"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/joinTV2"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@+id/joinTV1"-->
+                    <!--android:layout_marginTop="6dp"-->
+                    <!--android:text="Use this option to join a meeting that is already started. No need to login." />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/joinTV2"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:background="@android:color/darker_gray"/>-->
+            <!--</RelativeLayout>-->
             <RelativeLayout
-                android:id="@+id/schedule"
+                android:id="@+id/wishList"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
-                android:onClick="scheduleBtnClicked">
+                android:onClick="wishListButtonClicked"
+                android:visibility="visible">
 
                 <TextView
-                    android:id="@+id/scheduleTV1"
+                    android:id="@+id/wishListTV"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Schedule a Meeting."
+                    android:text="Wish List"
                     android:textColor="#e85e30"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/scheduleTV2"
+                    android:id="@+id/wishListTV2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/scheduleTV1"
+                    android:layout_below="@+id/wishListTV"
                     android:layout_marginTop="6dp"
-                    android:text="Use this option to schedule a meeting on your chosen time. You need to login to use this." />
+                    android:text="Check your wish list" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:layout_below="@+id/scheduleTV2"
+                    android:layout_below="@+id/wishListTV2"
                     android:layout_marginTop="10dp"
                     android:background="@android:color/darker_gray"/>
             </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/join"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="10dp"
-                android:onClick="joinBtnClicked">
-
-                <TextView
-                    android:id="@+id/joinTV1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Join a Meeting"
-                    android:textColor="#e85e30"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/joinTV2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/joinTV1"
-                    android:layout_marginTop="6dp"
-                    android:text="Use this option to join a meeting that is already started. No need to login." />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_below="@+id/joinTV2"
-                    android:layout_marginTop="10dp"
-                    android:background="@android:color/darker_gray"/>
-            </RelativeLayout>
-
             <RelativeLayout
                 android:id="@+id/signout"
                 android:layout_width="match_parent"

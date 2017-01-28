@@ -1,5 +1,7 @@
 package itutorgroup.h2h.bean;
 
+import java.util.ArrayList;
+
 /**
  * Created by kunaltambekar on 1/28/17.
  */
@@ -10,6 +12,23 @@ public class CustomUser {
     String apiToken;
     String token;
     int uid;
+    private  ArrayList<String> cities = new ArrayList<>();
+
+    public CustomUser() {
+        cities.add("San Francisco");
+        cities.add("Beijing");
+        cities.add("New Delhi");
+        cities.add("Chicago");
+    }
+
+    public  ArrayList<String> getCities() {
+        return cities;
+    }
+
+    public  void setCities(ArrayList<String> cities) {
+        this.cities = cities;
+    }
+
 
     public String getToken() {
         return token;

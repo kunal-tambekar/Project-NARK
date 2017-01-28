@@ -1,5 +1,6 @@
 package itutorgroup.h2h.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -15,6 +16,13 @@ import itutorgroup.h2h.bean.Singleton;
 
 public class MainActivity extends MeetingRoomBaseActivity {
 
+    private static final String EXTRA_PARAM = "";
+
+    public static Intent newIntent(Context packageContext, String param){
+        Intent intent = new Intent(packageContext, MainActivity.class);
+        intent.putExtra(EXTRA_PARAM, param);
+        return intent;
+    }
 
 
     @Override
@@ -40,6 +48,10 @@ public class MainActivity extends MeetingRoomBaseActivity {
     @Override
     protected void addListener() {
 
+    }
+
+    public void wishListButtonClicked(View v){
+        startActivity(new Intent(this, WishListActivity.class));
     }
 
     public void joinBtnClicked(View view) {

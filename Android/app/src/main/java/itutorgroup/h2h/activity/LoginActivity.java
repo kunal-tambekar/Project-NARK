@@ -1,5 +1,6 @@
 package itutorgroup.h2h.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -102,7 +103,7 @@ public class LoginActivity extends MeetingRoomBaseActivity {
 
                                 showToast("User Sign Up Success");
                                 dismissLoadingDialog();
-
+                                MyApplication.getContext().startActivity((MainActivity.newIntent(MyApplication.getContext(),"")).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
 
                             } catch (JSONException e) {
                                 e.printStackTrace();
