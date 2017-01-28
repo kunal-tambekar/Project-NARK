@@ -15,6 +15,8 @@ import itutorgroup.h2h.bean.Singleton;
 
 public class MainActivity extends MeetingRoomBaseActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

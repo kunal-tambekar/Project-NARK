@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="h2h-video-conference-1.0.39">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.liveh2h/h2h-video-conference/1.0.39/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.liveh2h/h2h-video-conference/1.0.39/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liveh2h/h2h-video-conference/1.0.39/7d6f69be481c4b91984b84c32ae65480b31d3960/h2h-video-conference-1.0.39-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
