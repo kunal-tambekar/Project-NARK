@@ -1,6 +1,7 @@
 package itutorgroup.h2h.activity;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -31,6 +32,14 @@ public class JoinMeetingActivity extends MeetingRoomBaseActivity implements Easy
     private static final int PERMISSION_BOTH = 2000;
     private EditText etMeetingId, etName;
     private Button joinMeetingBtn;
+    private static final String EXTRA_MEETING_ID = "meetingId";
+
+    public static Intent newIntent(Context packageContext, String meetingID){
+        Intent intent = new Intent(packageContext, JoinMeetingActivity.class);
+        intent.putExtra(EXTRA_MEETING_ID, meetingID);
+        return intent;
+    }
+
 
     @Override
     protected void initDatas() {

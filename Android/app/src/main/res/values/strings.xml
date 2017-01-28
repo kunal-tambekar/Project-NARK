@@ -578,7 +578,7 @@ For more information, please visit www.itutorgroup.com.</string>
     <string name="pick_image_intent_chooser_title">Select source</string>
     <string name="duplicate_user">Someone else used your credential to join the meeting. You are forced to logout.</string>
     <string name="error">error</string>
-	<string name="live">live</string>
+    <string name="live">live</string>
 
     <string name="mr_nav_participant">participant</string>
     <string name="mr_nav_raise_hand">Raise Hand</string>
