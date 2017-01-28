@@ -3,8 +3,12 @@ package itutorgroup.h2h;
 import android.app.Activity;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.util.Log;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.itutorgroup.h2hmodel.H2HConstant;
 import com.itutorgroup.h2hmodel.H2HUserManager;
@@ -19,15 +23,18 @@ import org.litepal.LitePalApplication;
  * Created by Rays on 16/5/9.
  */
 public class MyApplication extends LitePalApplication {
-    private static final String TAG = "MyApplication";
-    public static MyApplication INSTANCE;
-    private int appCount = 0;
-
-
+    public static final String TAG = MyApplication.class.getSimpleName();
     private static final String APPLICATION_ID = "73F427EA-0226-42FA-8A89-BA8B62F0A6D6";
-    private static final String TOKEN = "i/ZwbU9epNah5Dk0WXRFtvxMWkhm";
+    private static final String TOKEN = "t4Zf4pL9o3JaQFPCrpZfcerX42m/"; // "i/ZwbU9epNah5Dk0WXRFtvxMWkhm";
+    public static MyApplication INSTANCE;
+    private RequestQueue mRequestQueue;
+    private int appCount = 0;
     //private static final String APPLICATION_ID = "10F40A1B-4DBB-4590-B540-0169947B4ADF";
     //private static final String TOKEN = "zEV7/xBVCUi2zhDXR2Z19OGW1G7/";
+
+    public static synchronized MyApplication getInstance() {
+        return INSTANCE;
+    }
 
     @Override
     public void onCreate() {
@@ -123,5 +130,29 @@ public class MyApplication extends LitePalApplication {
     public void onConfigurationChanged(Configuration newConfig) {
         Log.d(TAG, "onConfigurationChanged");
         super.onConfigurationChanged(newConfig);
+    }
+
+    public RequestQueue getRequestQueue() {
+        if (mRequestQueue == null) {
+            mRequestQueue = Volley.newRequestQueue(getApplicationContext());
+        }
+
+        return mRequestQueue;
+    }
+
+    public <T> void addToRequestQueue(Request<T> req, String tag) {
+        req.setTag(TextUtils.isEmpty(tag) ? TAG : tag);
+        getRequestQueue().add(req);
+    }
+
+    public <T> void addToRequestQueue(Request<T> req) {
+        req.setTag(TAG);
+        getRequestQueue().add(req);
+    }
+
+    public void cancelPendingRequests(Object tag) {
+        if (mRequestQueue != null) {
+            mRequestQueue.cancelAll(tag);
+        }
     }
 }
