@@ -21,7 +21,7 @@
             android:inputType="textEmailAddress"
             android:lines="1"
             android:nextFocusForward="@+id/pwdEditText"
-            android:text="kkk@qq.com"/>
+            android:text="kunaltmbkr@gmail.com" />
 
         <EditText
             android:id="@+id/pwdEditText"
@@ -31,7 +31,7 @@
             android:hint="Enter your password"
             android:inputType="textPassword"
             android:lines="1"
-            android:text="123456"/>
+            android:text="Liveh2h@123" />
 
         <Button
             android:layout_width="match_parent"
@@ -46,5 +46,18 @@
             android:text="Login"
             android:textColor="@android:color/white"/>
     </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="30sp"
+        tools:text="H2H Login" />
 
 </RelativeLayout>
