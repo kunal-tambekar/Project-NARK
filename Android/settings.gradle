@@ -1,0 +1,1 @@
+include ':app', ':ui', ':utils', ':litepal', ':MPChartLib', ':library', ':jcvideoplayer-lib'

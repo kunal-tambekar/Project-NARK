@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1D1D1"
+    tools:context="itutorgroup.h2h.activity.JoinMeetingActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/white">
+
+        <EditText
+            android:id="@+id/displayNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/hint_displayName"
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:nextFocusForward="@+id/meetingidEditText"/>
+
+        <EditText
+            android:id="@+id/meetingidEditText"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/displayNameEditText"
+            android:hint="@string/hint_meeingId"
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="11"/>
+
+        <Button
+            android:id="@+id/joinMeetingBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/meetingidEditText"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:background="#e85e30"
+            android:onClick="joinMeetingClicked"
+            android:text="Join Meeting"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+</RelativeLayout>
