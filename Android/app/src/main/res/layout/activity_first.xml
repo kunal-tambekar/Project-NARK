@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_first"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="itutorgroup.h2h.activity.FirstActivity">
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/activity_first"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="itutorgroup.h2h.activity.FirstActivity"
+                android:background="@drawable/a1h2h">
 
     <TextView
         android:id="@+id/topBar"
@@ -12,7 +14,7 @@
         android:layout_height="60dp"
         android:background="#4d4d4d"
         android:gravity="center"
-        android:text="LiveH2H Demo Main Menu"
+        android:text="H2H Tour"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="20sp"
@@ -35,9 +37,19 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:onClick="signupBtnClicked"
                 android:visibility="visible">
 
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/white_translucence">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
                 <TextView
                     android:id="@+id/signUpTV1"
                     android:layout_width="match_parent"
@@ -53,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/signUpTV1"
                     android:layout_marginTop="6dp"
-                    android:text="Using LiveH2H doesn't require an account, however by signing up you get access to additional features such as recording the meeting, scheduling and more." />
+                    android:text="Sign up for H2H" />
 
                 <View
                     android:layout_width="match_parent"
@@ -61,6 +73,8 @@
                     android:layout_below="@+id/signUpTV2"
                     android:layout_marginTop="10dp"
                     android:background="@android:color/darker_gray" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
             </RelativeLayout>
 
             <RelativeLayout
@@ -72,7 +86,15 @@
                 android:layout_marginTop="10dp"
                 android:onClick="loginBtnClicked"
                 android:visibility="visible">
-
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/white_translucence">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
                 <TextView
                     android:id="@+id/loginTV1"
                     android:layout_width="match_parent"
@@ -88,7 +110,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/loginTV1"
                     android:layout_marginTop="6dp"
-                    android:text="Login to LiveH2H." />
+                    android:text="Login to H2H." />
 
                 <View
                     android:layout_width="match_parent"
@@ -96,6 +118,9 @@
                     android:layout_below="@+id/loginTV2"
                     android:layout_marginTop="10dp"
                     android:background="@android:color/darker_gray" />
+                </LinearLayout>
+                </android.support.v7.widget.CardView>
+
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>

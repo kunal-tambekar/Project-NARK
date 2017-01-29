@@ -77,7 +77,7 @@ public class SignupActivity extends MeetingRoomBaseActivity {
                             // not doing anything
                             try {
                                 String uid = ((JSONObject) response.get("data")).get("userId").toString();
-                                showToast("User Sign Up Success");
+                                showToast("User Logged in Successfully");
                                 insertUserInfo(firstName, lastName, email, pwd, uid);
 //                                dismissLoadingDialog();
 

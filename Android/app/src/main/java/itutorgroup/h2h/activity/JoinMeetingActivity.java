@@ -24,6 +24,7 @@ import com.mosai.utils.Tools;
 import java.util.List;
 
 import itutorgroup.h2h.R;
+import itutorgroup.h2h.bean.Singleton;
 import itutorgroup.h2h.utils.StringUtil;
 import pub.devrel.easypermissions.AfterPermissionGranted;
 import pub.devrel.easypermissions.EasyPermissions;
@@ -53,11 +54,14 @@ public class JoinMeetingActivity extends MeetingRoomBaseActivity implements Easy
         if (meetingId != null) {
             etMeetingId.setText(StringUtil.formatMeetingId(meetingId));
         }
+        etName.setText(Singleton.getCurrentUser().getName());
     }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        joinMeetingBtn.performClick();
     }
 
     @Override
