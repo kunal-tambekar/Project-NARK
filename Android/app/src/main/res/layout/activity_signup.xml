@@ -7,66 +7,77 @@
                 tools:context="itutorgroup.h2h.activity.SignupActivity">
 
     <RelativeLayout
-        android:background="@android:color/white"
-        android:layout_marginTop="60dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/white">
 
         <EditText
             android:id="@+id/firstNameEditText"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:singleLine="true"
+            android:hint="Enter your first name"
             android:nextFocusForward="@+id/lastNameEditText"
-            android:hint="Enter your first name" />
+            android:singleLine="true" />
 
         <EditText
             android:id="@+id/lastNameEditText"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_below="@+id/firstNameEditText"
-            android:singleLine="true"
+            android:hint="Enter your last name"
             android:nextFocusForward="@+id/emailAddressEditText"
-            android:hint="Enter your last name" />
+            android:singleLine="true" />
 
         <EditText
             android:id="@+id/emailEditText"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:singleLine="true"
-            android:nextFocusForward="@+id/pwdEditText"
             android:layout_below="@+id/lastNameEditText"
-            android:hint="Enter your email" />
+            android:hint="Enter your email"
+            android:nextFocusForward="@+id/pwdEditText"
+            android:singleLine="true" />
 
         <EditText
             android:id="@+id/pwdEditText"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:singleLine="true"
             android:layout_below="@+id/emailEditText"
-            android:hint="Enter your password" />
+            android:hint="Enter your password"
+            android:singleLine="true" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="20dp"
+            android:layout_below="@+id/pwdEditText"
             android:layout_marginBottom="25dp"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
             android:background="#e85e30"
-            android:layout_below="@+id/pwdEditText"
             android:onClick="signupClicked"
-            android:text="Sign Up" />
+            android:text="Sign Up"
+            android:textColor="@android:color/white" />
 
         <ProgressBar
             android:id="@+id/progressBar"
             style="?android:attr/progressBarStyleLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
             android:visibility="invisible" />
     </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Sign Up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:textSize="30sp" />
 
 </RelativeLayout>

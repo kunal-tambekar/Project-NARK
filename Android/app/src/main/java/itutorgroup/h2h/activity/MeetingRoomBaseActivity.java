@@ -37,6 +37,31 @@ public abstract class MeetingRoomBaseActivity extends AppCompatActivity {
     protected Context context;
     private ProgressDialog loadingDialog;
     private Toast toast;
+    /*********************************************
+     * 监听网络变化
+     ***********************************/
+    private boolean netWorkFirstTag = true;
+    private IntentFilter networkChangedFilter;
+    private NetworkChangedInterface networkChangedInterface;
+    public BroadcastReceiver myNetReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (netWorkFirstTag) {
+                netWorkFirstTag = false;
+                return;
+            }
+            String action = intent.getAction();
+            LogUtils.e("net changed");
+            if (action.equals(ConnectivityManager.CONNECTIVITY_ACTION)) {
+                ConnectivityManager mConnectivityManager = (ConnectivityManager) getSystemService(CONNECTIVITY_SERVICE);
+                NetworkInfo netInfo = mConnectivityManager.getActiveNetworkInfo();
+                if (netInfo != null && netInfo.isAvailable()) {
+                    if (networkChangedInterface != null)
+                        networkChangedInterface.networkChanged(netInfo.isAvailable());
+                }
+            }
+        }
+    };
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -82,7 +107,7 @@ public abstract class MeetingRoomBaseActivity extends AppCompatActivity {
     public void showLoadingDialog() {
         if (loadingDialog == null) {
             loadingDialog = new ProgressDialog(this);
-            loadingDialog.setMessage("正在加载中...");
+            loadingDialog.setMessage("Please wait...");
             loadingDialog.setCanceledOnTouchOutside(false);
         }
         loadingDialog.show();
@@ -140,36 +165,6 @@ public abstract class MeetingRoomBaseActivity extends AppCompatActivity {
         return false;
     }
 
-    /*********************************************
-     * 监听网络变化
-     ***********************************/
-    private boolean netWorkFirstTag=true;
-    private IntentFilter networkChangedFilter;
-    private NetworkChangedInterface networkChangedInterface;
-    public BroadcastReceiver myNetReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            if(netWorkFirstTag){
-                netWorkFirstTag=false;
-                return;
-            }
-            String action = intent.getAction();
-            LogUtils.e("net changed");
-            if (action.equals(ConnectivityManager.CONNECTIVITY_ACTION)) {
-                ConnectivityManager mConnectivityManager = (ConnectivityManager) getSystemService(CONNECTIVITY_SERVICE);
-                NetworkInfo netInfo = mConnectivityManager.getActiveNetworkInfo();
-                if (netInfo != null && netInfo.isAvailable()) {
-                    if (networkChangedInterface != null)
-                        networkChangedInterface.networkChanged(netInfo.isAvailable());
-                }
-            }
-        }
-    };
-
-    public interface NetworkChangedInterface {
-        void networkChanged(boolean isAvailable);
-    }
-
     private void registerNetworkChanged() {
         if (this instanceof NetworkChangedInterface) {
             networkChangedInterface = (NetworkChangedInterface) this;
@@ -191,8 +186,13 @@ public abstract class MeetingRoomBaseActivity extends AppCompatActivity {
             }
         }
     }
+
     /**************************************监听网络变化*********************************/
     protected boolean openEventBus(){
         return false;
+    }
+
+    public interface NetworkChangedInterface {
+        void networkChanged(boolean isAvailable);
     }
 }

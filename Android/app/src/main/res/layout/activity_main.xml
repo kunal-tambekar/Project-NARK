@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="itutorgroup.h2h.activity.MainActivity">
+    tools:context="itutorgroup.h2h.activity.MainActivity"
+    android:background="@drawable/a1main">
 
     <TextView
         android:id="@+id/topBar"
@@ -11,11 +12,11 @@
         android:layout_height="60dp"
         android:background="#4d4d4d"
         android:gravity="center"
-        android:text="LiveH2H Demo Main Menu"
-        android:textStyle="bold"
-        android:textSize="20sp"
+        android:text="H2H Tour"
         android:textAlignment="center"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,90 +28,30 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <RelativeLayout
-                android:id="@+id/signUp"
-                android:onClick="signupBtnClicked"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:visibility="gone">
-
-                <TextView
-                    android:id="@+id/signUpTV1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Sign Up"
-                    android:textColor="#e85e30"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/signUpTV2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/signUpTV1"
-                    android:layout_marginTop="6dp"
-                    android:text="Using LiveH2H doesn't require an account, however by signing up you get access to additional features such as recording the meeting, scheduling and more." />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_below="@+id/signUpTV2"
-                    android:layout_marginTop="10dp"
-                    android:background="@android:color/darker_gray"/>
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/login"
-                android:onClick="loginBtnClicked"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:visibility="gone">
-
-                <TextView
-                    android:id="@+id/loginTV1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Login"
-                    android:textColor="#e85e30"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/loginTV2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/loginTV1"
-                    android:layout_marginTop="6dp"
-                    android:text="Login to LiveH2H." />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_below="@+id/loginTV2"
-                    android:layout_marginTop="10dp"
-                    android:background="@android:color/darker_gray"/>
-            </RelativeLayout>
 
             <RelativeLayout
                 android:id="@+id/instant"
-                android:onClick="instantMeetingBtnClicked"
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp">
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:onClick="instantMeetingBtnClicked">
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_translucence">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/instantTV1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Instant Meeting"
+                    android:text="Broadcast"
                     android:textColor="#e85e30"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -129,85 +70,140 @@
                     android:layout_below="@+id/instantTV2"
                     android:layout_marginTop="10dp"
                     android:background="@android:color/darker_gray"/>
+                </LinearLayout>
+                </android.support.v7.widget.CardView>
             </RelativeLayout>
 
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/schedule"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:onClick="scheduleBtnClicked">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/scheduleTV1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Schedule a Meeting."-->
+                    <!--android:textColor="#e85e30"-->
+                    <!--android:textSize="20sp"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/scheduleTV2"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@+id/scheduleTV1"-->
+                    <!--android:layout_marginTop="6dp"-->
+                    <!--android:text="Use this option to schedule a meeting on your chosen time. You need to login to use this." />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/scheduleTV2"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:background="@android:color/darker_gray"/>-->
+            <!--</RelativeLayout>-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/join"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:onClick="joinBtnClicked">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/joinTV1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Join a Meeting"-->
+                    <!--android:textColor="#e85e30"-->
+                    <!--android:textSize="20sp"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/joinTV2"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@+id/joinTV1"-->
+                    <!--android:layout_marginTop="6dp"-->
+                    <!--android:text="Use this option to join a meeting that is already started. No need to login." />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/joinTV2"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:background="@android:color/darker_gray"/>-->
+            <!--</RelativeLayout>-->
             <RelativeLayout
-                android:id="@+id/schedule"
-                android:onClick="scheduleBtnClicked"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp">
-
-                <TextView
-                    android:id="@+id/scheduleTV1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Schedule a Meeting."
-                    android:textColor="#e85e30"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/scheduleTV2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/scheduleTV1"
-                    android:layout_marginTop="6dp"
-                    android:text="Use this option to schedule a meeting on your chosen time. You need to login to use this." />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_below="@+id/scheduleTV2"
-                    android:layout_marginTop="10dp"
-                    android:background="@android:color/darker_gray"/>
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/join"
-                android:onClick="joinBtnClicked"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp">
-
-                <TextView
-                    android:id="@+id/joinTV1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Join a Meeting"
-                    android:textColor="#e85e30"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/joinTV2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/joinTV1"
-                    android:layout_marginTop="6dp"
-                    android:text="Use this option to join a meeting that is already started. No need to login." />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_below="@+id/joinTV2"
-                    android:layout_marginTop="10dp"
-                    android:background="@android:color/darker_gray"/>
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/signout"
-                android:onClick="signoutBtnClicked"
-                android:layout_marginTop="10dp"
+                android:id="@+id/wishList"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:visibility="gone">
+                android:layout_marginTop="10dp"
+                android:onClick="wishListButtonClicked"
+                android:visibility="visible">
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_translucence">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/wishListTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wish List"
+                    android:textColor="#e85e30"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wishListTV2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wishListTV"
+                    android:layout_marginTop="6dp"
+                    android:text="Check your wish list" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/wishListTV2"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/darker_gray"/>
+                </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/signout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:onClick="signoutBtnClicked"
+                android:visibility="visible">
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_translucence">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/signoutTV1"
@@ -232,6 +228,8 @@
                     android:layout_below="@+id/signoutTV2"
                     android:layout_marginTop="10dp"
                     android:background="@android:color/darker_gray"/>
+                </LinearLayout>
+                </android.support.v7.widget.CardView>
             </RelativeLayout>
 
         </LinearLayout>

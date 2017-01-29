@@ -1,5 +1,6 @@
 package itutorgroup.h2h.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,10 +10,21 @@ import com.itutorgroup.h2hmodel.H2HHttpRequest;
 import com.itutorgroup.h2hmodel.H2HResponse;
 import com.itutorgroup.h2hmodel.H2HUserManager;
 
+import itutorgroup.h2h.MyApplication;
 import itutorgroup.h2h.R;
+import itutorgroup.h2h.bean.Singleton;
 
 
 public class MainActivity extends MeetingRoomBaseActivity {
+
+    private static final String EXTRA_PARAM = "";
+
+    public static Intent newIntent(Context packageContext, String param){
+        Intent intent = new Intent(packageContext, MainActivity.class);
+        intent.putExtra(EXTRA_PARAM, param);
+        return intent;
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +51,10 @@ public class MainActivity extends MeetingRoomBaseActivity {
 
     }
 
+    public void wishListButtonClicked(View v){
+        startActivity(new Intent(this, WishListActivity.class));
+    }
+
     public void joinBtnClicked(View view) {
         startActivity(new Intent(this, JoinMeetingActivity.class));
     }
@@ -47,13 +63,6 @@ public class MainActivity extends MeetingRoomBaseActivity {
         startActivity(new Intent(this, InstantMeetingActivity.class));
     }
 
-    public void signupBtnClicked(View view) {
-        startActivity(new Intent(this, SignupActivity.class));
-    }
-
-    public void loginBtnClicked(View view) {
-        startActivity(new Intent(this, LoginActivity.class));
-    }
 
     public void scheduleBtnClicked(View view) {
         if (!H2HUserManager.getInstance().isLogin()) {
@@ -68,6 +77,8 @@ public class MainActivity extends MeetingRoomBaseActivity {
             @Override
             public void onCompleted(final Exception ex, final H2HCallBackStatus status, final H2HResponse response) {
                 showToast("You have signed out");
+                Singleton.setCurrentUser(null);
+                MyApplication.getContext().startActivity((FirstActivity.newIntent(MyApplication.getContext(),"")).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
             }
         });
     }
