@@ -21,57 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_59771e8ae84399b9475e545eaa82409de6a96a01/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
         <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_deba894a8b818dfc44623a1df0e148f22d3a895b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc2/51033a5b8fcf7039159e35b6878f106ccd5fb35f/auto-service-1.0-rc2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="51033a5b8fcf7039159e35b6878f106ccd5fb35f">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/auto-service-1.0-rc2_3eee676e7213786a127d53f112afb28507edeeb8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.liveh2h/h2h-video-conference/1.0.39/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="3e6134e099550262ac0b2f589a46804d3bb27a5b">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.liveh2h-h2h-video-conference-1.0.39_6712dcac61f9584dcd4249a193e891d1f14eea0b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8604d66b5b3907ee1fdd1da09d318c734dd745c4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/pub.devrel/easypermissions/0.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ee2708a9c0516e58ec052169364c693fae68af3c">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/pub.devrel-easypermissions-0.2.0_d0f59f76254e81025a48e2c9623aa78c3a8fdb51/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,48 +57,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_ae50900a0526ace9be6283bd5ec213d4429cd79c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.koushikdutta.async/androidasync/2.1.8/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="210a4042913301c708bd9aeed46e4ebb5d77e462">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.koushikdutta.async-androidasync-2.1.8_a5e4e96250e6dc618eb6a64cc3c1b89ab6b893ec/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.12.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="1e346707e4770db216049a532ab3eb5e317cf82a">
         <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-drawee-0.12.0_5afbddba8b508bc36e07a0f7cab3e6cf7d208f27/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.12.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="40e5cb8708fc25fe57cb403cc82e9ef98376b648">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fbcore-0.12.0_29ad077c8c43f06ee85f882500acbcf8b6917632/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_ab73fc517a8068b08a78aff9d7a03d0fe7315e16/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -162,15 +81,6 @@
         revision="24.0.3"
         sha1="c025695224d4e573f50b9711d0dd7e2e6da95ae5">
         <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.zhy-mpermission-api-1.0.0_63309ebc5f96f3446e30c3c2b44683a59a16998e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.zhy/mpermission-annotation/1.0.0/ad87d60db49aec2397f2c07c229db0886a175dd8/mpermission-annotation-1.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ad87d60db49aec2397f2c07c229db0886a175dd8">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/mpermission-annotation-1.0.0_eda31dfe2b6129e1501e23a34a69a0d8cf0b235e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -210,15 +120,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_5bdd890710b22097c5d4b7be15984de30e6dd2fe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.22/3f9fc4168f6f23d49de6a2782176beb11ab3f31a/fastjson-1.2.22.jar"
         jumboMode="true"
         optimize="true"
@@ -234,15 +135,6 @@
         revision="24.0.3"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
         <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_6ca9af019aefc275e94c8726d623d588de4a2e8c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_6f43f626b83b8862a616555c8e9c56e8c4fbac88/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -264,84 +156,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b2804f185bd28a0f88956e9f44859e64a390ab3b">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_df93782b8e265870d9bb849dbe550c0b2528b130/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_2763345fd3974688f45058485cf7b2d3d509742f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_59e335aa32009b47764a5b0632790b84188906ea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
         <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_001790a266901f2d4758c69f0b0d3a66c4763b5a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_7c0dda0d4017b4ec89c06ee10b8f97cdbd0ad8f0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_54929042512892d8a43a5c5f1be349dad88a2a82/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-ws-3.4.1_cd131a00f02d8c1453edbe5b51ded58b745c7a65/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.0.1/6e3b29589d7e38efd94d2e9505b7b542e8cf9669/butterknife-compiler-8.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="6e3b29589d7e38efd94d2e9505b7b542e8cf9669">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-compiler-8.0.1_72c4d2bad31cd766b31d1f37bc02a6d726567fd3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_d2dec005dcefce4dfa6b91b0932a85b68e140d58/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -363,30 +183,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_2e49b3423a3e03376f1f697dd422949cd1be1423/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/io.socket/engine.io-client/0.8.1/c84b11d25ae405edc4260d2dcf430fdd21c2c8d9/engine.io-client-0.8.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="c84b11d25ae405edc4260d2dcf430fdd21c2c8d9">
         <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/engine.io-client-0.8.1_58ff5eb70ba7ea21e9745d67ca76dee3b4eaa8c6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_a635c9e9ea17ef46421f8653de32a548a1bfc747/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -408,15 +210,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.zhy/base-adapter/3.0.2/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="eb9f06675665f5b5c55324fd9a9c0e3b322bc49a">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.zhy-base-adapter-3.0.2_36644350586d433d70baec15c1bee1e22bc6e531/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -435,15 +228,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.kyleduo.switchbutton/library/1.4.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="51df8068d5bc0e16dd932359840c6c63b908502d">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.kyleduo.switchbutton-library-1.4.1_c7b6063cf2cbd781672c4a853cf9ce4c0e67b19b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.github.anrwatchdog/anrwatchdog/1.3.0/deede8906f849e103ad5b1311c0776a3279151cb/anrwatchdog-1.3.0.jar"
         jumboMode="true"
         optimize="true"
@@ -453,12 +237,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="cf7212b0f8bfef12657b942df8f4f2cf032d3f41">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/auto-common-0.6_a92b803aa07efd5e60fed92026d2c77e16bb2074/classes.dex" />
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_8628d9e1311e1e0b6bb8affa4d4ec89bf368f2e2/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -466,17 +250,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="78661188d21f744d7fb0ce256cb8a9c8fb388bae">
+        sha1="cb6c1a16f50ed44fa41a5f36c649fabbfd915247">
         <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_205b403a1739cd20a90cc36ba2f1d50273676c4d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_8628d9e1311e1e0b6bb8affa4d4ec89bf368f2e2/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -531,6 +306,231 @@
         revision="24.0.3"
         sha1="3a0a874103c60a626f0fcbd78fcd6c5e1e5407b8">
         <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.github.rockerhieu-emojicon-1.4.2_a20738173c50369c61651f1eabd57c27a6f18c7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_59771e8ae84399b9475e545eaa82409de6a96a01/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc2/51033a5b8fcf7039159e35b6878f106ccd5fb35f/auto-service-1.0-rc2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="51033a5b8fcf7039159e35b6878f106ccd5fb35f">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/auto-service-1.0-rc2_3eee676e7213786a127d53f112afb28507edeeb8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.liveh2h/h2h-video-conference/1.0.39/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3e6134e099550262ac0b2f589a46804d3bb27a5b">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.liveh2h-h2h-video-conference-1.0.39_6712dcac61f9584dcd4249a193e891d1f14eea0b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8604d66b5b3907ee1fdd1da09d318c734dd745c4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/pub.devrel/easypermissions/0.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee2708a9c0516e58ec052169364c693fae68af3c">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/pub.devrel-easypermissions-0.2.0_d0f59f76254e81025a48e2c9623aa78c3a8fdb51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_ae50900a0526ace9be6283bd5ec213d4429cd79c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.koushikdutta.async/androidasync/2.1.8/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="210a4042913301c708bd9aeed46e4ebb5d77e462">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.koushikdutta.async-androidasync-2.1.8_a5e4e96250e6dc618eb6a64cc3c1b89ab6b893ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.12.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="40e5cb8708fc25fe57cb403cc82e9ef98376b648">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fbcore-0.12.0_29ad077c8c43f06ee85f882500acbcf8b6917632/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_ab73fc517a8068b08a78aff9d7a03d0fe7315e16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.zhy/mpermission-annotation/1.0.0/ad87d60db49aec2397f2c07c229db0886a175dd8/mpermission-annotation-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ad87d60db49aec2397f2c07c229db0886a175dd8">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/mpermission-annotation-1.0.0_eda31dfe2b6129e1501e23a34a69a0d8cf0b235e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_5bdd890710b22097c5d4b7be15984de30e6dd2fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_6f43f626b83b8862a616555c8e9c56e8c4fbac88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b570457c631cbfa906c984cfbe6cd375f5ba23f5">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_df93782b8e265870d9bb849dbe550c0b2528b130/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_2763345fd3974688f45058485cf7b2d3d509742f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_59e335aa32009b47764a5b0632790b84188906ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_7c0dda0d4017b4ec89c06ee10b8f97cdbd0ad8f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_54929042512892d8a43a5c5f1be349dad88a2a82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-ws-3.4.1_cd131a00f02d8c1453edbe5b51ded58b745c7a65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.0.1/6e3b29589d7e38efd94d2e9505b7b542e8cf9669/butterknife-compiler-8.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6e3b29589d7e38efd94d2e9505b7b542e8cf9669">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-compiler-8.0.1_72c4d2bad31cd766b31d1f37bc02a6d726567fd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_d2dec005dcefce4dfa6b91b0932a85b68e140d58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_2e49b3423a3e03376f1f697dd422949cd1be1423/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_a635c9e9ea17ef46421f8653de32a548a1bfc747/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.zhy/base-adapter/3.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eb9f06675665f5b5c55324fd9a9c0e3b322bc49a">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.zhy-base-adapter-3.0.2_36644350586d433d70baec15c1bee1e22bc6e531/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/exploded-aar/com.kyleduo.switchbutton/library/1.4.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="51df8068d5bc0e16dd932359840c6c63b908502d">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.kyleduo.switchbutton-library-1.4.1_c7b6063cf2cbd781672c4a853cf9ce4c0e67b19b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Ajinkya/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cf7212b0f8bfef12657b942df8f4f2cf032d3f41">
+        <dex dex="/Users/Ajinkya/git/Development/Project_H2H/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/auto-common-0.6_a92b803aa07efd5e60fed92026d2c77e16bb2074/classes.dex" />
     </item>
     <item
         is-multidex="true"

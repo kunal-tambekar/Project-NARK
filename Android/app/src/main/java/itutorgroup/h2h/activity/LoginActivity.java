@@ -22,6 +22,7 @@ import java.util.Map;
 import itutorgroup.h2h.MyApplication;
 import itutorgroup.h2h.R;
 import itutorgroup.h2h.bean.CustomUser;
+import itutorgroup.h2h.bean.Singleton;
 
 public class LoginActivity extends MeetingRoomBaseActivity {
 
@@ -101,7 +102,8 @@ public class LoginActivity extends MeetingRoomBaseActivity {
                                 user.setApiToken(((JSONObject) response.get("data")).get("apiToken").toString());
                                 user.setName(((JSONObject) response.get("data")).get("name").toString());
 
-                                showToast("User Sign Up Success");
+                                showToast("User Login Success");
+                                Singleton.setCurrentUser(user);
                                 dismissLoadingDialog();
                                 MyApplication.getContext().startActivity((MainActivity.newIntent(MyApplication.getContext(),"")).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
 

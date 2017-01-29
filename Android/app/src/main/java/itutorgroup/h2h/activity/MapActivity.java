@@ -46,12 +46,6 @@ public class MapActivity extends AppCompatActivity {
     private SupportMapFragment mMapFragment;
     private static String EXTRA_CITY = "CITY";
 
-    public static Intent newIntent(Context packageContext, String city){
-        Intent intent = new Intent(packageContext, JoinMeetingActivity.class);
-        intent.putExtra(EXTRA_CITY, city);
-        return intent;
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,12 +62,18 @@ public class MapActivity extends AppCompatActivity {
 
     }
 
+    public static Intent newIntent(Context packageContext, String city){
+        Intent intent = new Intent(packageContext, MapActivity.class);
+        intent.putExtra(EXTRA_CITY, city);
+        return intent;
+    }
+
 
     public void updateUI(){
 
         //get the city from Intent!!
         String uri = "http://sfsuswe.com/~rarora/H2H/mini/public/events/getEventByCity/?city="
-                + Uri.encode("San Francisco");
+                + Uri.encode(getIntent().getStringExtra(EXTRA_CITY));
 
         Log.v("Maps Query",uri);
 
@@ -131,14 +131,12 @@ public class MapActivity extends AppCompatActivity {
             @Override
             public void onMapReady(GoogleMap googleMap) {
                 mMap = googleMap;
-
-//                                    LatLng eventLocation = new LatLng(37.7219,-122.4782);
-//                                    mMap.addMarker(new MarkerOptions().position(eventLocation));
-//                                    mMap.moveCamera(CameraUpdateFactory.newLatLng(eventLocation));
-
                 for(MapList mapList : mCoordinateList){
                     LatLng eventLocation = new LatLng(mapList.getLatitude(),mapList.getLongitude());
-                    mMap.addMarker(new MarkerOptions().position(eventLocation));
+                    MarkerOptions options = new MarkerOptions();
+                    options.position(eventLocation);
+                    options.title(mapList.getName());
+                    mMap.addMarker(options);
                     mMap.moveCamera(CameraUpdateFactory.newLatLng(eventLocation));
                 }
                 mMap.setMinZoomPreference(10f);

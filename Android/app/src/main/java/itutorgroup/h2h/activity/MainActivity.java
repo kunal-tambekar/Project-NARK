@@ -10,6 +10,7 @@ import com.itutorgroup.h2hmodel.H2HHttpRequest;
 import com.itutorgroup.h2hmodel.H2HResponse;
 import com.itutorgroup.h2hmodel.H2HUserManager;
 
+import itutorgroup.h2h.MyApplication;
 import itutorgroup.h2h.R;
 import itutorgroup.h2h.bean.Singleton;
 
@@ -77,6 +78,7 @@ public class MainActivity extends MeetingRoomBaseActivity {
             public void onCompleted(final Exception ex, final H2HCallBackStatus status, final H2HResponse response) {
                 showToast("You have signed out");
                 Singleton.setCurrentUser(null);
+                MyApplication.getContext().startActivity((FirstActivity.newIntent(MyApplication.getContext(),"")).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
             }
         });
     }
